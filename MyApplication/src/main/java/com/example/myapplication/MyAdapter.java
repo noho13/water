@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 /**
  * Created by Norman Hoeller on 9/19/13.
+ * simple cursoradapter doing everything on mainthread which is bad, so that has to be changed
  */
 public class MyAdapter extends CursorAdapter {
 
