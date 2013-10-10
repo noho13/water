@@ -132,7 +132,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             }
 
             String jsonAsString = outer.toString();
-            Log.d(TAG, jsonAsString);
+//            Log.d(TAG, jsonAsString);
 
             try {
                 String example = outer.getJSONObject("product").getJSONArray("string_array").getString(1);
